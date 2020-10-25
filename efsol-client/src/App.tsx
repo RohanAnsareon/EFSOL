@@ -1,10 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Content } from './components/content/content';
+import Navbar from './components/navbar/navbar';
 
-function App() {
+const App: React.FunctionComponent<{ title: string }> = ({ title }) => {
   return (
-    <div>Hello World</div>
+    <div>
+      <Navbar title={title} />
+      <Content />
+    </div>
   );
 }
 

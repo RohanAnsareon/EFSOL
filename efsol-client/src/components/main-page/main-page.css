@@ -1,0 +1,14 @@
+.container {
+    height: 70vh;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container Button {
+    width: fit-content;
+}
+
